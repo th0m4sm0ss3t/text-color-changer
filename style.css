@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    background-color: rgb(238, 222, 220);
+}
+
+h1, p{
+    text-align: center;
+    margin: 1rem;
+}
+
+h1{
+    font-size: 4.5rem;
+    text-transform: uppercase;
+}
+
+p{
+    padding-top: 2rem;
+}
+
+#div-colors{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem auto;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.div-one-color{
+    width: 5rem;
+    height: 5rem;
+    margin: 5px 3px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.div-one-color:hover{
+    border: 1px solid black;
+    box-shadow: 7px 10px 8px -3px rgba(0,0,0,0.44);
+}
+
+#cl1{
+    background-color: #004369;
+    color: aliceblue;
+    align-items: center;
+}
+
+#cl2{
+    background-color: #FAD02C;
+    align-items: center;
+}
+
+
+#cl3{
+    background-color: #E6C2BF;
+    align-items: center;
+}
+
+#cl4{
+    background-color: #282120;
+    color: aliceblue;
+    align-items: center;
+}
+
+#cl5{
+    background-color: #870A30;
+    color: aliceblue;
+    align-items: center;
+}
+
+#cl6{
+    background-color: #116530;
+    color: aliceblue;
+    align-items: center;
+}
+
+#cl7{
+    background-color: #340744;
+    color: aliceblue;
+    align-items: center;
+}
+
+#cl8{
+    background-color: #FF4500;
+    color: aliceblue;
+    align-items: center;
+}
+
+#cl9{
+    background-color: #4F0000;
+    color: aliceblue;
+    align-items: center;
+}
+
+#cl10{
+    background-color: #94C973;
+    color: aliceblue;
+    align-items: center;
+}
